@@ -29,7 +29,7 @@ jobs:
         run: behave
 
       - name: Run unittests (Lab 2)
-        run: python -m unittest
+        run: python -m unittest lab_test.py
 
       - name: Run pylint
         run: | 
