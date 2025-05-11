@@ -25,6 +25,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run behave tests (Lab 1)
+        run: behave
+
       - name: Run pylint
         run: | 
           pylint --fail-under 7 app
